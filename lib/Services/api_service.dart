@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const baseUrl = "http://10.0.2.2:3000";
+  //static const baseUrl = "http://10.0.2.2:3000";
+  static const baseUrl = "http://localhost:3000";
   static RegisterUser(Map<String, dynamic> userData) async {
     print(userData);
     try {
