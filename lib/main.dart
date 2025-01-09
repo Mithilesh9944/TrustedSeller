@@ -3,7 +3,6 @@ import 'package:flutter_project/Pages/ContactReadPage.dart';
 import 'package:flutter_project/Pages/HomePage.dart';
 import 'package:flutter_project/Pages/RegisterPage.dart';
 import 'package:flutter_project/Pages/WelcomePage.dart';
-import 'package:flutter_project/Util/UtilBackButton.dart';
 import 'Pages/LoginPage.dart';
 
 void main() {
@@ -11,11 +10,11 @@ void main() {
     debugShowCheckedModeBanner: false,
     initialRoute: '/',
     routes: {
-      '/':(context) => MyHome(),
+      '/': (context) => MyHome(),
       'register': (context) => MyRegister(),
       'login': (context) => MyLogin(),
       'welcome': (context) => MyWelcome(),
-      'contactRead':(context)=>MyContactReadPage()
+      'contactRead': (context) => MyContactReadPage()
     },
   )); //MaterailApp
 }
